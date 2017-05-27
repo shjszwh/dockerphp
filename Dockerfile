@@ -9,7 +9,7 @@ RUN yum install redis -y
 
 ADD tmp/*  /tmp/
 
-RUN rpm -Uvh /tmp/epel-release-latest-7.noarch.rpm && rpm -Uvh /tmp/webtatic-release.rpm
+RUN yum install /tmp/epel-release-latest-7.noarch.rpm && yum install /tmp/webtatic-release.rpm
 
 RUN yum install php70w php70w-opcache php70w-fpm php70w-pecl-redis -y
 
