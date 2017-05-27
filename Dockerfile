@@ -6,24 +6,8 @@ RUN yum install wget -y
 RUN wget https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 RUN yum install  webtatic-release.rpm -y
 
-RUN yum install php70w -y
-RUN yum install php70w-bcmath -y
-RUN yum install php70w-cli -y
-RUN yum install php70w-common -y
-RUN yum install php70w-dba -y
-RUN yum install php70w-devel -y
-RUN yum install php70w-embedded -y
-RUN yum install php70w-enchant -y
-RUN yum install php70w-fpm -y
-RUN yum install php70w-gd -y
-RUN yum install php70w-imap -y
-RUN yum install php70w-interbase -y
-RUN yum install php70w-intl -y
-RUN yum install php70w-ldap -y
-RUN yum install php70w-mbstring -y
-RUN yum install php70w-mcrypt -y
-RUN yum install php70w-mysql -y
-RUN yum install php70w-mysqlnd -y
+RUN yum install php70w php70w-fpm  php70w-bcmath php70w-cli php70w-common php70w-dba php70w-devel php70w-embedded php70w-enchant php70w-gd php70w-imap php70w-interbase php70w-intl php70w-ldap php70w-mbstring php70w-mcrypt php70w-mysql -y
+
 RUN yum install php70w-odbc -y
 RUN yum install php70w-opcache -y
 RUN yum install php70w-pdo -y
