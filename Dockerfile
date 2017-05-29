@@ -51,5 +51,5 @@ php70w-xmlrpc -y
 WORKDIR /var/www/html
 
 EXPOSE 9000
-
-CMD ["php-fpm"]
+COPY supervisord.conf /etc/supervisor/supervisord.conf
+CMD ["supervisord", "-c", "/etc/supervisor/supervisord.conf"]
