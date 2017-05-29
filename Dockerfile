@@ -48,4 +48,8 @@ php70w-tidy \
 php70w-xml \
 php70w-xmlrpc -y
 
+WORKDIR /var/www/html
+
+EXPOSE 9000
+
 CMD ["php-fpm"]
