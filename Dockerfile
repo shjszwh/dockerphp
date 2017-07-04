@@ -1,4 +1,4 @@
-FROM hub.c.163.com/library/php:7.0-fpm
+FROM hub.c.163.com/library/php:7.1.0-fpm
 
 MAINTAINER Wang hao "hao.wang@hotelgg.com"
 
