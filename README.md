@@ -1,2 +1,2 @@
 # dockerphp
-centos7.3 php-fpm7 
+php-fpm7.1.0
