@@ -1,4 +1,4 @@
-FROM php:7.1.7-fpm
+FROM php:7.1.5-fpm
 
 MAINTAINER Wang hao "hao.wang@hotelgg.com"
 
